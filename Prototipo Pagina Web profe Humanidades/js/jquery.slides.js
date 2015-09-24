@@ -115,16 +115,16 @@
       });
       if (this.options.navigation.active) {
         prevButton = $("<a>", {
-          "class": "slidesjs-previous slidesjs-navigation",
+          "class": "slidesjs-previous slidesjs-navigation icon-previous",
           href: "#",
           title: "Anterior",
-          text: "Anterior"
+          text: ""
         }).appendTo($element);
         nextButton = $("<a>", {
-          "class": "slidesjs-next slidesjs-navigation",
+          "class": "slidesjs-next slidesjs-navigation icon-next",
           href: "#",
           title: "Siguiente",
-          text: "Siguiente"
+          text: ""
         }).appendTo($element);
       }
       $(".slidesjs-next", $element).click(function(e) {
@@ -139,16 +139,16 @@
       });
       if (this.options.play.active) {
         playButton = $("<a>", {
-          "class": "slidesjs-play slidesjs-navigation",
+          "class": "slidesjs-play slidesjs-navigation icon-play2",
           href: "#",
           title: "Iniciar",
-          text: "Iniciar"
+          text: ""
         }).appendTo($element);
         stopButton = $("<a>", {
-          "class": "slidesjs-stop slidesjs-navigation",
+          "class": "slidesjs-stop slidesjs-navigation icon-pause",
           href: "#",
           title: "Pausar",
-          text: "Pausar"
+          text: ""
         }).appendTo($element);
         playButton.click(function(e) {
           e.preventDefault();
