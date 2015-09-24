@@ -13,7 +13,7 @@ body {background:lightgrey;}
 
 .main{ height: 80px;
 }
-
+/* galeriaa*/)
 .slideshow {
 	width: 100%;
 	max-width: 1000px;
@@ -60,6 +60,8 @@ body {background:lightgrey;}
 	background: #;
 }
 
+
+/*menu */
 .menu_bar {
 	display:none;
 
@@ -72,15 +74,17 @@ header {
 }
  /* para que se quede fijo*/
 header nav {
-	background:#023859;
+	background:#000;
 	z-index:1000;
-	max-width: 1000px;
+	max-width: 1366px;
 	width:100%;
 	margin:0px auto;
+	padding-left: 297px;
 }
  
 header nav ul {
 	list-style:none;
+	 margin-left: 1px;
 }
  
 header nav ul li {
@@ -89,7 +93,8 @@ header nav ul li {
 }
  
 header nav ul li:hover {
-	background:#000;
+	background:#444444;
+
 }
  
 header nav ul li a {
@@ -109,7 +114,7 @@ header nav ul li:hover .children {
  
 header nav ul li .children {
 	display: none;
-	background:#011826;
+	background:#000;
 	position: absolute;
 	width: 150%;
 	z-index:1000;
@@ -139,8 +144,8 @@ header nav ul li .caret {
 	margin-left:10px;
 	margin-right:0px;
 }
-
-
+/*menu*/
+/* barra social*/
 .social {
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 	left: 0; /* Establecemos la barra en la izquierda */
@@ -173,7 +178,7 @@ header nav ul li .caret {
 		background: #123; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
- 
+ /*media de adaptacion para dispositivos moviles */
 @media screen and (max-width: 800px) {
 	body {
 		padding-top:80px;
@@ -184,7 +189,7 @@ header nav ul li .caret {
 		width:100%;
 		position: fixed;
 		top:0;
-		background:#023859;
+		background:#000;
 	}
  
 	.menu_bar .bt-menu {
@@ -209,6 +214,7 @@ header nav ul li .caret {
 		right:100%;
 		margin: 0;
 		overflow: scroll;
+		padding-left: 2px;
 	}
  
 	header nav ul li {
